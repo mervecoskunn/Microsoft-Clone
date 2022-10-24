@@ -1,0 +1,257 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.container{
+    display:flex;
+    width:75rem;
+    margin:0 auto;
+}
+.container-full{
+    width: 100%;
+    display: flex;
+}
+.nav{
+    padding: .625rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    margin-left: 1.2rem;
+
+}
+.nav a::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: .125rem;
+    background-color: black;
+    transition: .3sn;
+
+}
+.nav a:hover::after{
+    width: 100%;
+
+}
+#left,#right{
+    display: flex;
+    align-items: center;
+    width: 60%;
+
+}
+#left>img{
+    width:6.75rem;
+
+}
+#right{
+    justify-content: end;
+}
+.part1{
+    display: flex;
+    position:relative;
+
+}
+#slidefoto{
+    width: 100%;
+    height: 100%;
+
+}
+#slidetext{
+    width: 30rem;
+    color: white;
+    position: absolute;
+    display: block;
+    margin-left: 5%;
+    padding-top: 5%;
+}
+button{
+    background-color: rgb(79, 79, 239);
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 5%;
+    
+}
+button:hover{
+    background-color: rgb(33, 33, 74);
+}
+#sembols{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+
+}
+.part2{
+     display: flex; 
+     justify-content: center;
+     margin-top: 3rem;
+    margin-bottom: 5rem;
+     
+}
+.item{
+    width: 20%;
+}
+.item a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item  a>p{
+    text-align: center;
+
+}
+.part3{
+    display: flex;
+    justify-content: space-between;
+}
+.part3item{
+    width: 20%;
+}
+.part3item >img{
+    width: 100%;
+
+}
+.part4{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    
+
+}
+#slidefoto2{
+    width: 100%;
+    height: 100%;
+
+}
+ #slidetext2{
+        width: 30rem;
+        color: black;
+        position: absolute;
+        display: block;
+       margin-right: 50%;
+       margin-top: 10%;
+} 
+.part5{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+#part5title{
+    padding-left: 2%;
+}
+.part5item{
+    width: 20%;
+}
+.part5item>img{
+    width: 100%;
+}
+.part6{
+    display: flex;
+}
+.part6item{
+    display: flex;
+    padding: .8rem;
+    margin-left: 1rem;
+    align-items: center;
+}
+.part6item > a{
+    color: black;
+}
+.part7{
+    display: flex;
+    justify-content: end;
+    margin-right: 1rem;
+
+}
+#gotop{
+    background-color: lightgrey;
+   border: transparent;
+   margin-bottom: 1rem;
+}
+#gotop:hover{
+    background-color: white;
+
+}
+.part7item> #gotop a{
+    text-decoration: none;
+    color:black;
+
+}
+.container{
+    margin: 2%;
+
+}
+.footer-bg {
+    background-color: #f2f2f2;
+    margin-top: 2rem;
+  
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    font-size: .875rem;
+}
+
+.footer a {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    line-height: 2rem;
+}
+
+.footer-top .col a {
+    display: block;
+}
+
+.footer-bottom {
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom>ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom li a {
+    margin-left: 1.2rem;
+}
+
+
+
+
+
+ 
+
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
