@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Microsoft Clone",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Microsoft Clone"
+	}
+}
